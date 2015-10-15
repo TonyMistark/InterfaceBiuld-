@@ -7,12 +7,23 @@
 //
 
 #import "ViewController.h"
+#import "TestXibViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIButton *goBtn;
+@property (weak, nonatomic) IBOutlet UIButton *myBtn;
 @end
 
 @implementation ViewController
+- (IBAction)goClick:(UIButton *)sender {
+    
+}
+- (IBAction)click:(UIButton *)sender {
+    NSLog(@"点我作甚？");
+    
+    TestXibViewController *t=[[TestXibViewController alloc]initWithNibName:@"TestXibViewController" bundle:nil];
+    [self presentViewController:t animated:YES completion:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

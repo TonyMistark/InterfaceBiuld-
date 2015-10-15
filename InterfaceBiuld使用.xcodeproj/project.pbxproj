@@ -15,6 +15,9 @@
 		C31F25BC1BB44C4C00CD5BE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31F25BB1BB44C4C00CD5BE5 /* Images.xcassets */; };
 		C31F25BF1BB44C4C00CD5BE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31F25BD1BB44C4C00CD5BE5 /* LaunchScreen.xib */; };
 		C31F25CB1BB44C4C00CD5BE5 /* InterfaceBiuld__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F25CA1BB44C4C00CD5BE5 /* InterfaceBiuld__Tests.m */; };
+		C31F25D61BB44EB200CD5BE5 /* SecondControlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F25D51BB44EB200CD5BE5 /* SecondControlerViewController.m */; };
+		C31F25DA1BB4539200CD5BE5 /* TestXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F25D81BB4539200CD5BE5 /* TestXibViewController.m */; };
+		C31F25DB1BB4539200CD5BE5 /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31F25D91BB4539200CD5BE5 /* TestXibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 		C31F25C41BB44C4C00CD5BE5 /* InterfaceBiuld使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InterfaceBiuld使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F25C91BB44C4C00CD5BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31F25CA1BB44C4C00CD5BE5 /* InterfaceBiuld__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceBiuld__Tests.m; sourceTree = "<group>"; };
+		C31F25D41BB44EB200CD5BE5 /* SecondControlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondControlerViewController.h; sourceTree = "<group>"; };
+		C31F25D51BB44EB200CD5BE5 /* SecondControlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondControlerViewController.m; sourceTree = "<group>"; };
+		C31F25D71BB4539200CD5BE5 /* TestXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXibViewController.h; sourceTree = "<group>"; };
+		C31F25D81BB4539200CD5BE5 /* TestXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXibViewController.m; sourceTree = "<group>"; };
+		C31F25D91BB4539200CD5BE5 /* TestXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestXibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,12 @@
 				C31F25B01BB44C4C00CD5BE5 /* AppDelegate.m */,
 				C31F25B51BB44C4C00CD5BE5 /* ViewController.h */,
 				C31F25B61BB44C4C00CD5BE5 /* ViewController.m */,
+				C31F25D71BB4539200CD5BE5 /* TestXibViewController.h */,
+				C31F25D81BB4539200CD5BE5 /* TestXibViewController.m */,
+				C31F25D91BB4539200CD5BE5 /* TestXibViewController.xib */,
 				C31F25B81BB44C4C00CD5BE5 /* Main.storyboard */,
+				C31F25D41BB44EB200CD5BE5 /* SecondControlerViewController.h */,
+				C31F25D51BB44EB200CD5BE5 /* SecondControlerViewController.m */,
 				C31F25BB1BB44C4C00CD5BE5 /* Images.xcassets */,
 				C31F25BD1BB44C4C00CD5BE5 /* LaunchScreen.xib */,
 				C31F25B21BB44C4C00CD5BE5 /* InterfaceBiuld__.xcdatamodeld */,
@@ -202,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31F25DB1BB4539200CD5BE5 /* TestXibViewController.xib in Resources */,
 				C31F25BA1BB44C4C00CD5BE5 /* Main.storyboard in Resources */,
 				C31F25BF1BB44C4C00CD5BE5 /* LaunchScreen.xib in Resources */,
 				C31F25BC1BB44C4C00CD5BE5 /* Images.xcassets in Resources */,
@@ -222,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31F25DA1BB4539200CD5BE5 /* TestXibViewController.m in Sources */,
+				C31F25D61BB44EB200CD5BE5 /* SecondControlerViewController.m in Sources */,
 				C31F25B11BB44C4C00CD5BE5 /* AppDelegate.m in Sources */,
 				C31F25AE1BB44C4C00CD5BE5 /* main.m in Sources */,
 				C31F25B71BB44C4C00CD5BE5 /* ViewController.m in Sources */,
